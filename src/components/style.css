@@ -1,0 +1,41 @@
+/* src/components/style.css */
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+  gap: 16px; /* Espacio entre las tarjetas */
+  padding: 20px; /* Espaciado interno del contenedor */
+}
+
+.card {
+  position: relative;
+  width: 80%; /* Asegúrate de que las tarjetas ocupen todo el ancho de la columna */
+  height: 381px; /* Mantén la altura de tus tarjetas */
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 11px solid;
+  border-color: var(--defaultgray-600);
+}
+
+.app {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--defaultgray-100);
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--defaultgray-800);
+}
+
+.pokemon-list {
+  display: flex; /* Usamos flexbox para manejar filas y columnas */
+  flex-wrap: wrap; /* Permite que las tarjetas se distribuyan en múltiples filas */
+  gap: 16px; /* Espaciado entre las tarjetas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  padding: 20px; /* Espaciado interno del contenedor */
+}

@@ -1,0 +1,204 @@
+.card {
+  position: relative;
+  width: 253px;
+  height: 381px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 11px solid;
+  border-color: var(--defaultgray-600);
+}
+
+.card .overlap-group {
+  position: absolute;
+  width: 236px;
+  height: 213px;
+  top: 10px;
+  left: 8px;
+  overflow: hidden; /* Asegura que la imagen no se salga del contenedor */
+}
+
+.card .overlap-group img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el área del contenedor sin distorsionar */
+}
+
+.card .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 4px;
+  position: absolute;
+  top: 12px;
+  left: 189px;
+  background-color: var(--defaultgray-700);
+  border-radius: 30px;
+}
+
+.card .number {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-sm-leading-5-font-bold-font-family);
+  font-weight: var(--text-sm-leading-5-font-bold-font-weight);
+  color: var(--defaultwhite);
+  font-size: var(--text-sm-leading-5-font-bold-font-size);
+  letter-spacing: var(--text-sm-leading-5-font-bold-letter-spacing);
+  line-height: var(--text-sm-leading-5-font-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-sm-leading-5-font-bold-font-style);
+}
+
+.card .overlap {
+  position: absolute;
+  width: 237px;
+  height: 147px;
+  top: 223px;
+  left: 7px;
+  background-color: var(--defaultgray-200);
+}
+
+.card .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: absolute;
+  top: 15px;
+  left: 21px;
+}
+
+.card .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.card .name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-lg-leading-7-font-extrabold-font-family);
+  font-weight: var(--text-lg-leading-7-font-extrabold-font-weight);
+  color: var(--defaultgray-800);
+  font-size: var(--text-lg-leading-7-font-extrabold-font-size);
+  letter-spacing: var(--text-lg-leading-7-font-extrabold-letter-spacing);
+  line-height: var(--text-lg-leading-7-font-extrabold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-lg-leading-7-font-extrabold-font-style);
+}
+
+.card .types-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--defaultgray-700);
+  border-radius: 14px;
+}
+
+.card .types {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-xs-leading-4-font-bold-font-family);
+  font-weight: var(--text-xs-leading-4-font-bold-font-weight);
+  color: var(--defaultwhite);
+  font-size: var(--text-xs-leading-4-font-bold-font-size);
+  letter-spacing: var(--text-xs-leading-4-font-bold-letter-spacing);
+  line-height: var(--text-xs-leading-4-font-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-xs-leading-4-font-bold-font-style);
+}
+
+.card .classification {
+  position: relative;
+  width: 190px;
+  font-family: var(--text-xs-leading-4-font-medium-font-family);
+  font-weight: var(--text-xs-leading-4-font-medium-font-weight);
+  color: var(--defaultgray-500);
+  font-size: var(--text-xs-leading-4-font-medium-font-size);
+  letter-spacing: var(--text-xs-leading-4-font-medium-letter-spacing);
+  line-height: var(--text-xs-leading-4-font-medium-line-height);
+  font-style: var(--text-xs-leading-4-font-medium-font-style);
+}
+
+.card .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 69px;
+  left: 21px;
+}
+
+.card .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.card .chip {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--defaultgray-100);
+  border-radius: 4px;
+}
+
+.card .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-xs-leading-4-font-normal-font-family);
+  font-weight: var(--text-xs-leading-4-font-normal-font-weight);
+  color: var(--defaultgray-700);
+  font-size: var(--text-xs-leading-4-font-normal-font-size);
+  letter-spacing: var(--text-xs-leading-4-font-normal-letter-spacing);
+  line-height: var(--text-xs-leading-4-font-normal-line-height);
+  white-space: nowrap;
+  font-style: var(--text-xs-leading-4-font-normal-font-style);
+}
+
+.card .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-xs-leading-4-font-bold-font-family);
+  font-weight: var(--text-xs-leading-4-font-bold-font-weight);
+  color: var(--defaultgray-700);
+  font-size: var(--text-xs-leading-4-font-bold-font-size);
+  letter-spacing: var(--text-xs-leading-4-font-bold-letter-spacing);
+  line-height: var(--text-xs-leading-4-font-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-xs-leading-4-font-bold-font-style);
+}
+
+.card .chip-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--defaultgray-100);
+  border-radius: 4px;
+}
+
+.card .img {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+

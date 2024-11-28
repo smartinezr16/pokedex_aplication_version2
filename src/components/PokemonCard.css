@@ -1,0 +1,50 @@
+/* src/components/PokemonCard.css */
+.card {
+  position: relative;
+  width: 80%;
+  height: auto;
+  background-color: #b3b3b3;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 50px solid var(--defaultgray-600); /* Color del contorno */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px; /* Espaciado entre las tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.855); /* Sombra para un mejor efecto */
+}
+
+.pokemon-name {
+  font-family: 'Inter', 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+
+.pokemon-number {
+  font-family: 'Inter', 'Helvetica', sans-serif; /* Usar las fuentes deseadas */
+  font-weight: 400; /* Peso de la fuente */
+  font-size: 16px; /* Tamaño de la fuente */
+  text-align: center; /* Centrar el texto */
+  color: #555; /* Color del texto */
+  margin-bottom: 8px; /* Espaciado entre el número y el nombre */
+}
+
+.overlap-group img {
+  width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+}
+
+.name {
+  margin-top: 8px; /* Espaciado entre la imagen y el nombre */
+  font-family: var(--text-lg-leading-7-font-extrabold-font-family);
+  font-weight: var(--text-lg-leading-7-font-extrabold-font-weight);
+  color: var(--defaultgray-800);
+  font-size: var(--text-lg-leading-7-font-extrabold-font-size);
+}
+
+
+
